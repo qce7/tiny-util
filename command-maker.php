@@ -1,5 +1,4 @@
 <?php
-declare(strict_types =  0);
 /**
  * Created by PhpStorm.
  * User: danielqi
