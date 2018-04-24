@@ -1,5 +1,5 @@
-#!/usr/local/bin/php
 <?php
+declare(strict_types =  0);
 /**
  * Created by PhpStorm.
  * User: danielqi
@@ -15,7 +15,7 @@
  * @param int $end_id  结束处理的id
  * @param int $per_num 每次执行的数量
  */
-function main($command, int $start_id, int $end_id, int $per_num)
+function main($command, $start_id, $end_id, $per_num)
 {
     $current_start_id = $start_id;
     $res = [];
